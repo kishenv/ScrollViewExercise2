@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					43B3800F1EAFD6D400380156 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RYG9Z2A69Y;
 						ProvisioningStyle = Automatic;
 					};
 					43B380231EAFD6D400380156 = {
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RYG9Z2A69Y;
 				INFOPLIST_FILE = PageTheScroll2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kish.PageTheScroll2;
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RYG9Z2A69Y;
 				INFOPLIST_FILE = PageTheScroll2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kish.PageTheScroll2;

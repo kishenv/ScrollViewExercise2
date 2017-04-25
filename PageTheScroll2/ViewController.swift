@@ -8,16 +8,45 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
+   
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+    var images = [UIImageView]() //Array of type images..
 
-    override func viewDidLoad() {
+
+    override func viewDidLoad()
+    
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        var contentWidth: CGFloat = 0.0                 //sets width of UI Scroll
+        
+        
+        for x in 0...2
+        {
+            let image = UIImage(named:"icon\(x).png")   //sets constant-image (in current iteration) to the chosen image in array
+            let imageView = UIImageView(image:image)    //creates a constant imageView of type UIImageVIew
+            images.append(imageView)
+            
+            var newX: CGFloat = 0.0                     // x axis point for current image
+            newX = view.frame.midX + view.frame.size.width * CGFloat(x)
+                                                        //sets x values of all images during each iteration..
+            
+            contentWidth += newX
+            
+            scrollView.addSubview(imageView)
+            
+            imageView.frame = CGRect(x: newX-75, y: (view.frame.size.height/2)-75, width: 150, height: 150)
+                                                        //sets x,y,width and height of UIImage
+            
+            
+            print ("run instance")
+            
+        }
+        scrollView.contentSize = CGSize(width: contentWidth, height: view.frame.size.height)
+        print ("Count:\(images.count)")
     }
 
 
