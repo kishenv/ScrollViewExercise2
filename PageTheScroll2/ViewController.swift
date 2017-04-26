@@ -54,7 +54,8 @@ class ViewController: UIViewController
             print ("run instance")
             
         }
-        scrollView.backgroundColor = UIColor.purple
+        scrollView.clipsToBounds = false //Scroll View boundary will clip out the image if true...Image will otherwise show on top of scroll view.
+        //scrollView.backgroundColor = UIColor.purple
         scrollView.contentSize = CGSize(width: contentWidth, height: view.frame.size.height)
         print ("Count:\(images.count)")
         
