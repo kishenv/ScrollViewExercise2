@@ -23,6 +23,7 @@ class ViewController: UIViewController
         
         var contentWidth: CGFloat = 0.0                 //sets width of UI Scroll
         
+        print("Scroll View Width: \(scrollView.frame.width)")
         
         for x in 0...2
         {
@@ -45,6 +46,7 @@ class ViewController: UIViewController
             print ("run instance")
             
         }
+        scrollView.backgroundColor = UIColor.purple
         scrollView.contentSize = CGSize(width: contentWidth, height: view.frame.size.height)
         print ("Count:\(images.count)")
     }

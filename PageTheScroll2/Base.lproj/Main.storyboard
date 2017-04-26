@@ -40,7 +40,10 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUs-EN-kBA">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="57" y="0.0" width="260" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="nAG-FB-0q1"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -49,18 +52,14 @@
                             <constraint firstItem="c8t-Ns-l64" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="EOg-Zk-aoz"/>
                             <constraint firstItem="oUs-EN-kBA" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Gq4-LE-Sbv"/>
                             <constraint firstItem="c8t-Ns-l64" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="JFy-uW-SgY"/>
-                            <constraint firstItem="oUs-EN-kBA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LZb-SF-piF"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oUs-EN-kBA" secondAttribute="bottom" id="Q8U-dE-Ny1"/>
                             <constraint firstItem="oUs-EN-kBA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="R9o-jN-Era"/>
                             <constraint firstAttribute="trailing" secondItem="azN-M8-GrC" secondAttribute="trailing" id="UBd-m1-Kvg"/>
                             <constraint firstItem="oUs-EN-kBA" firstAttribute="top" secondItem="gvj-kv-y9N" secondAttribute="top" id="WcS-Xf-4LE"/>
                             <constraint firstItem="azN-M8-GrC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Wrz-Tg-rrG"/>
-                            <constraint firstAttribute="trailing" secondItem="oUs-EN-kBA" secondAttribute="trailing" id="ZLh-m0-AP4"/>
-                            <constraint firstItem="oUs-EN-kBA" firstAttribute="leading" secondItem="gvj-kv-y9N" secondAttribute="leading" id="n5f-XH-7sx"/>
+                            <constraint firstItem="oUs-EN-kBA" firstAttribute="leading" secondItem="gvj-kv-y9N" secondAttribute="leading" constant="57" id="n5f-XH-7sx"/>
                             <constraint firstItem="oUs-EN-kBA" firstAttribute="bottom" secondItem="gvj-kv-y9N" secondAttribute="bottom" id="rUq-AF-4ol"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="azN-M8-GrC" secondAttribute="bottom" id="tmF-kZ-Nd0"/>
-                            <constraint firstItem="oUs-EN-kBA" firstAttribute="trailing" secondItem="azN-M8-GrC" secondAttribute="trailing" id="wEz-UG-cTV"/>
-                            <constraint firstItem="oUs-EN-kBA" firstAttribute="leading" secondItem="azN-M8-GrC" secondAttribute="leading" id="yHA-Jx-LbY"/>
                         </constraints>
                     </view>
                     <connections>
