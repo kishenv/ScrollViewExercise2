@@ -40,16 +40,16 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUs-EN-kBA">
-                                <rect key="frame" x="57" y="0.0" width="260" height="667"/>
+                                <rect key="frame" x="72" y="0.0" width="230" height="667"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="260" id="nAG-FB-0q1"/>
+                                    <constraint firstAttribute="width" constant="230" id="nAG-FB-0q1"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="gvj-kv-y9N" secondAttribute="trailing" id="5Cq-Hx-YNT"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="oUs-EN-kBA" secondAttribute="trailing" constant="42" id="AMg-HP-9rQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oUs-EN-kBA" secondAttribute="trailing" constant="57" id="AMg-HP-9rQ"/>
                             <constraint firstItem="c8t-Ns-l64" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="EOg-Zk-aoz"/>
                             <constraint firstItem="oUs-EN-kBA" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Gq4-LE-Sbv"/>
                             <constraint firstItem="c8t-Ns-l64" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="JFy-uW-SgY"/>
@@ -61,8 +61,8 @@
                             <constraint firstAttribute="trailing" secondItem="gvj-kv-y9N" secondAttribute="trailing" id="Z8V-Kw-fb7"/>
                             <constraint firstItem="gvj-kv-y9N" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ici-ha-WNg"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gvj-kv-y9N" secondAttribute="bottom" id="l0C-fk-gV6"/>
-                            <constraint firstItem="oUs-EN-kBA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="41" id="lDd-KK-u9M"/>
-                            <constraint firstItem="oUs-EN-kBA" firstAttribute="leading" secondItem="gvj-kv-y9N" secondAttribute="leading" constant="57" id="n5f-XH-7sx"/>
+                            <constraint firstItem="oUs-EN-kBA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="56" id="lDd-KK-u9M"/>
+                            <constraint firstItem="oUs-EN-kBA" firstAttribute="leading" secondItem="gvj-kv-y9N" secondAttribute="leading" constant="72" id="n5f-XH-7sx"/>
                             <constraint firstItem="oUs-EN-kBA" firstAttribute="bottom" secondItem="gvj-kv-y9N" secondAttribute="bottom" id="rUq-AF-4ol"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="azN-M8-GrC" secondAttribute="bottom" id="tmF-kZ-Nd0"/>
                             <constraint firstItem="gvj-kv-y9N" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vfw-8W-biD"/>
